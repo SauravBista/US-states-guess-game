@@ -5,6 +5,7 @@ turtle_2.penup()
 turtle_2.shape()
 
 from tkinter import messagebox
+#SETTING UP THE SCREEN
 screen = Screen()
 
 screen.title("This is US states guessing game")
@@ -14,6 +15,7 @@ screen.addshape(image)
 turtle.shape(image)
 import csv
 import pandas
+#MAIN LOGIC
 def ask_input():
 
     return(input_states)
